@@ -7,3 +7,9 @@
 function feast(beast, dish) {
     return beast.charAt(0) === dish.charAt(0) && beast.substring(beast.length -1) === dish.substring(dish.length -1)
    }
+
+
+// SUGGESTED SOLUTION
+// function feast(beast, dish) {
+//    return beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1]
+// }
