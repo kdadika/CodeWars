@@ -11,3 +11,7 @@
 // Return false for invalid numbers too (e.g volume or side is less than or equal to 0).
 
 // Note: side will be an integer
+
+var cubeChecker = function (volume, side) {
+  return Math.pow(side, 3) === volume && side > 0;
+};
